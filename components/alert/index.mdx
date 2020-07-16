@@ -4,7 +4,7 @@ route: /Alert
 menu: 组件
 ---
 
-import { HappyBox } from '../../doc-comps';
+import { CodeBox } from '../../doc-comps';
 import BasicDemo from './demo/1-demo-basic';
 import BasicDemoCode from '!raw-loader!./demo/1-demo-basic.tsx';
 
@@ -16,12 +16,12 @@ import BasicDemoCode from '!raw-loader!./demo/1-demo-basic.tsx';
 
 #### 基本用法
 
-<HappyBox code={BasicDemoCode} title="基本用法" desc="使用kind控制Alert类型">
+<CodeBox code={BasicDemoCode} title="基本用法" desc="使用type控制Alert类型">
   <BasicDemo />
-</HappyBox>
+</CodeBox>
 
 ### API
 
 | 属性 | 说明     | 类型                                         | 默认值 |
 | ---- | -------- | -------------------------------------------- | ------ |
-| kind | 警告类型 | 'info'/'positive'/'negative'/'warning'非必填 | 'info' |
+| type | 类型 | 'info'/'success'/'error'/'warning' 非必填 | 'info' |

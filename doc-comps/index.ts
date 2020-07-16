@@ -1,3 +1,3 @@
-import HappyBox from './happy-box';
+import CodeBox from './code-box';
 
-export { HappyBox };
+export { CodeBox };
