@@ -1,0 +1,27 @@
+---
+name: Tag 标签
+route: /Tag
+menu: 组件
+---
+
+import { CodeBox } from '../../doc-comps';
+import BasicDemo from './demo/1-demo-basic';
+import BasicDemoCode from '!raw-loader!./demo/1-demo-basic.tsx';
+
+## Tag 标签提示
+
+进行标记和分类的小标签。
+
+### 代码演示
+
+#### 基本用法
+
+<CodeBox code={BasicDemoCode} title="基本用法" desc="">
+  <BasicDemo />
+</CodeBox>
+
+### API
+
+| 属性 | 说明     | 类型                                         | 默认值 |
+| ---- | -------- | -------------------------------------------- | ------ |
+| color | 标签色 | string | '-' |
